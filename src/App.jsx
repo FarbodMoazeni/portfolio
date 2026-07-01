@@ -10,6 +10,11 @@ import before4 from './assets/before4.jpg'
 import after4 from './assets/after4.jpg'
 import before5 from './assets/before5.jpg'
 import after5 from './assets/after5.jpg'
+import before6 from './assets/before6.jpg'
+import after6 from './assets/after6.jpg'
+
+import before7 from './assets/before7.jpg'
+import after7 from './assets/after7.jpg'
 
 function App() {
   return (
@@ -51,10 +56,24 @@ function App() {
         </div>
       
 
-    </div>
     
+    
+    
+   <div className="beforeAfter">
+          <img src={before6} alt="before" />
+          <img src={after6} alt="after" />
+        </div>
+      
+
+   <div className="beforeAfter">
+          <img src={before7} alt="before" />
+          <img src={after7} alt="after" />
+        </div>
+
+
+     </div>
   )
-}
+};
 
 
 
