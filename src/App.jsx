@@ -20,10 +20,10 @@ import after8 from './assets/after8.jpg'
 import before9 from './assets/before9.jpg'
 import after9 from './assets/after9.jpg'
 
-import before10 from './assets/before10.jpg'
-import after10 from './assets/after10.jpg'
-import before11 from './assets/before11.jpg'
-import after11 from './assets/after11.jpg'
+import before10 from './assets/before12.jpg'
+import after10 from './assets/after12.jpg'
+import before11 from './assets/before13.jpg'
+import after11 from './assets/after13.jpg'
 
 function App() {
   return (
@@ -100,8 +100,19 @@ function App() {
   <img src={before11} alt="before" />
   <img src={after11} alt="after" />
 </div>
+
+
+<div className="beforeAfter">
+  <img src={before12} alt="before" />
+  <img src={after12} alt="after" />
+</div>
+<div className="beforeAfter">
+  <img src={before13} alt="before" />
+  <img src={after13} alt="after" />
+</div>
      </div>
   )
+  
 };
 
 
