@@ -22,8 +22,8 @@ import after9 from './assets/after9.jpg'
 
 import before10 from './assets/before12.jpg'
 import after10 from './assets/after12.jpg'
-import before11 from './assets/before13.jpg'
-import after11 from './assets/after13.jpg'
+import before11 from './assets/before12.jpg'
+import after11 from './assets/after12.jpg'
 
 function App() {
   return (
@@ -106,11 +106,13 @@ function App() {
   <img src={before12} alt="before" />
   <img src={after12} alt="after" />
 </div>
+
 <div className="beforeAfter">
   <img src={before13} alt="before" />
   <img src={after13} alt="after" />
 </div>
-     </div>
+
+ </div>
   )
   
 };
