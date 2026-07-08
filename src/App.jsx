@@ -100,18 +100,6 @@ function App() {
   <img src={before11} alt="before" />
   <img src={after11} alt="after" />
 </div>
-
-
-<div className="beforeAfter">
-  <img src={before12} alt="before" />
-  <img src={after12} alt="after" />
-</div>
-
-<div className="beforeAfter">
-  <img src={before13} alt="before" />
-  <img src={after13} alt="after" />
-</div>
-
  </div>
   )
   
