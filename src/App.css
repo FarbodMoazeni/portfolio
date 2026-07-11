@@ -207,13 +207,15 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
+
 }
 
 .beforeAfter img {
   width: 400px;
   border-radius: 10px;
-}
+ }
+
 
 body {
   margin: 0;
@@ -248,6 +250,7 @@ button:hover {
 
 .project {
   margin: 60px auto;
+
 }
 
 .beforeAfter {

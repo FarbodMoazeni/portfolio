@@ -35,33 +35,34 @@ function App() {
 
 <h2>About</h2>
 
-<p>
+<p >
 I create AI-powered virtual staging for empty apartments.
 My goal is to help real estate agents and property owners present properties in a more attractive way.
 </p>
-<h2>Services</h2>
+<h2 style={{ marginRight: 15,marginTop: 30}}>Services</h2>
 
-<ul style={{listStyleType: "none"}}>
-  <li>Virtual Staging</li>
-  <li>Interior Visualization</li>
+<ul style={{listStyleType: "none", marginRight: 40,paddingBottom:5,marginTop:30}}>
+  <li>Design your dream</li>
+  <li>Best View of house</li>
   <li>AI Home Design</li>
+  <li>perspective of apartment</li>
 </ul>
-      <div className="project">
+      <div className="project" >
         <h3>Modern Living Room</h3>
 
-        <div className="beforeAfter">
+        <div className="beforeAfter" style={{marginTop:20}} >
           <img src={before1} alt="before" />
           <img src={after1} alt="after" />
         </div>
       </div>
 
       
-        <div className="beforeAfter">
+        <div className="beforeAfter" style={{paddingBottom:20}}>
           <img src={before2} alt="before" />
           <img src={after2} alt="after" />
         </div>
       
-    <div className="beforeAfter">
+    <div className="beforeAfter" >
           <img src={before3} alt="before" />
           <img src={after3} alt="after" />
         </div>
@@ -73,7 +74,7 @@ My goal is to help real estate agents and property owners present properties in 
         </div>
       
 
-   <div className="beforeAfter">
+   <div className="beforeAfter" >
           <img src={before5} alt="before" />
           <img src={after5} alt="after" />
         </div>
@@ -88,7 +89,7 @@ My goal is to help real estate agents and property owners present properties in 
         </div>
       
 
-   <div className="beforeAfter">
+   <div className="beforeAfter" >
           <img src={before7} alt="before" />
           <img src={after7} alt="after" />
         </div>
