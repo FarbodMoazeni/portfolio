@@ -27,6 +27,7 @@ import after11 from './assets/after12.jpg'
 
 function App() {
   return (
+   
     <div style={{ textAlign: 'center' }}>
       <h1>Ali Virtual Staging</h1>
 
@@ -40,7 +41,7 @@ My goal is to help real estate agents and property owners present properties in 
 </p>
 <h2>Services</h2>
 
-<ul  style="list-style-type: none;">
+<ul style={{listStyleType: "none"}}>
   <li>Virtual Staging</li>
   <li>Interior Visualization</li>
   <li>AI Home Design</li>
