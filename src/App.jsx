@@ -32,6 +32,19 @@ function App() {
 
       <h2>Virtual Staging & Interior Visualization</h2>
 
+<h2>About</h2>
+
+<p>
+I create AI-powered virtual staging for empty apartments.
+My goal is to help real estate agents and property owners present properties in a more attractive way.
+</p>
+<h2>Services</h2>
+
+<ul  style="list-style-type: none;">
+  <li>Virtual Staging</li>
+  <li>Interior Visualization</li>
+  <li>AI Home Design</li>
+</ul>
       <div className="project">
         <h3>Modern Living Room</h3>
 
@@ -96,10 +109,8 @@ function App() {
   <img src={after10} alt="after" />
 </div>
 
-<div className="beforeAfter">
-  <img src={before11} alt="before" />
-  <img src={after11} alt="after" />
-</div>
+
+
  </div>
   )
   
